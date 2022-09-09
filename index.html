@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan's Portfolio</title>
+
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/signature.css">
+    <link rel="stylesheet" href="assets/projects.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <link rel="stylesheet" href="assets/scaling.css">
+
+    <script src="https://kit.fontawesome.com/1e12b68f56.js" crossorigin="anonymous"></script>
+    <!-- https://pixelcog.github.io/parallax.js/ -->
+    <script src="/path/to/parallax.js"></script>
+    <script src="assets/parallax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/nav.js"></script>
+    <script type="text/javascript" src="assets/darkmode.js"></script>
+   
+   
+
+    
+</head>
+
+<body>
+
+    <div class="homepage">
+        
+        <div id="homepage-topbar-alt" style="height:0; display: none;"> 
+
+            <div class="menu dark">
+                <div class="menu-button"><i class="fa-solid fa-bars"></i></div>
+            </div>
+
+            <div class="topbar alt dark" >
+                <div class="nav-button">
+                    <div class="nav-title"><i class="fa-solid fa-bars"></i></div>
+                </div>
+                <div class="nav nav-home" style="cursor: pointer;" onclick="window.location='index.html';">
+                    <div class="nav-title "><i class="fa-solid fa-house"></i></div>
+                    <div class="nav-content"></div>
+                </div>
+
+                <div class="nav">
+                    <a href="rocketry.html">
+                        <div class="nav-title">ROCKETRY</div>
+                    </a>
+                    <div class="nav-content">
+                        <a href="rocketry.html#seds">SEDS UCSD</a>
+                        <a href="rocketry.html#grocketry">Galileo Rocketry</a>
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="robotics.html">
+                        <div class="nav-title">ROBOTICS</div>
+                    </a>
+                    <div class="nav-content">
+                        <a href="robotics.html#tr">Triton Robotics</a>
+                        <a href="robotics.html#gr">Galileo Robotics</a>
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="other.html">
+                        <div class="nav-title">OTHER</div>
+                    </a>
+                    <div class="nav-content">
+                        <a href="other.html">Leadership</a>
+                        <a href="other.html#projects">Projects</a>
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="index.html#about">
+                        <div class="nav-title">ABOUT</div>
+                    </a>
+                    <div class="nav-content">   
+                        <a href="index.html#about">Biography</a>
+                        <a href="index.html#resume">Resume</a>
+                        <a href="index.html#awards">Awards</a>
+                    </div>
+                </div>
+            
+            </div>
+                    
+        </div>
+        
+        <!-- Landing -->
+        <section class="landing">
+            <div class="landing-wrap"><img class="landing-bg" src="images/background.webp" alt=""></div>
+
+            <div class="topbar-landing-cont" >
+                <div class="topbar topbar-landing">
+                    <div class="nav-button">
+                        <div class="nav-title"><i class="fa-solid fa-bars"></i></div>
+                    </div>
+
+                    
+                    <div class="nav nav-home" style="cursor: pointer;" onclick="window.location='#';">
+                        <div class="nav-title "><i class="fa-solid fa-house"></i></div>
+                        <div class="nav-content"></div>
+                    </div>
+                    
+                    
+                    <div class="nav nav-mobile">
+                        <a href="rocketry.html">
+                            <div class="nav-title">ROCKETRY</div>
+                        </a>
+                        <div class="nav-content">
+                            <a href="rocketry.html#seds">SEDS UCSD</a>
+                            <a href="rocketry.html#grocketry">Galileo Rocketry</a>
+                        </div>
+                    </div>
+                    <div class="nav nav-mobile">
+                        <a href="robotics.html">
+                            <div class="nav-title">ROBOTICS</div>
+                        </a>
+                        <div class="nav-content">
+                            <a href="robotics.html#tr">Triton Robotics</a>
+                            <a href="robotics.html#gr">Galileo Robotics</a>
+                        </div>
+                    </div>
+                    <div class="nav nav-mobile">
+                        <a href="other.html">
+                            <div class="nav-title">OTHER</div>
+                        </a>
+                        <div class="nav-content">
+                            <a href="other.html">Leadership</a>
+                            <a href="other.html#projects">Projects</a>
+                        </div>
+                    </div>
+                    <div class="nav nav-mobile">
+                        <a href="#about">
+                            <div class="nav-title">ABOUT</div>
+                        </a>
+                        <div class="nav-content">
+                            <a href="#about">Biography</a>
+                            <a href="#resume">Resume</a>
+                            <a href="#awards">Awards</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>  
+            
+            <div class="logo-cont">
+                <h1>ETHAN QUAN</h1>
+                <svg class="signature-cont" version="1.1" viewBox="0 0 638.38 181.51" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(268.51 -49.709)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5">
+                        <path id="frame1" d="m-157.48 90.67c3.6348-16.921-1.6032-26.944-8.6667-31.624-7.0635-4.6805-14.77-6.7746-27.89-6.6883-6.5603 0.04314-14.525 1.5444-21.244 5.4598s-12.19 10.245-15.417 16.227c-9.4522 18.52 7.2007 22.898 16.955 25.263 9.7538 2.3655 17.804 2.353 17.124 7.1631-0.72287 5.1118-9.9654 9.1134-22.074 18.085-2.9026 2.1507-35.132 26.605-43.369 45.551-6.4029 14.729-6.2531 36.883 12.838 42.94 17.755 5.633 54.116 5.3954 65.818 5.0881 35.139-0.92253 71.672-6.124 71.672-6.124"/>
+                        <path id="frame2" d="m-149.12 100.27c-7.374 10.552-15.284 25.1-21.485 36.832-6.2006 11.732-12.053 20.223-8.3355 22.412 4.9645 2.923 21.422-15.305 28.065-22.996s27.85-35.443 28.399-35.111-8.0447 15.302-13.532 24.369c-5.4869 9.0676-15.354 20.89-14.764 21.585s8.5826-8.2319 12.495-10.017c3.9129-1.7852 5.4732-1.9621 8.7778-0.51634s7.0314 1.0185 9.8105 1.0327c2.7791 0.0142 10.304-0.57586 14.148-1.136s11.111-1.3224 7.0223-4.8536c-4.0885-3.5312-14.748 0.87328-13.838 2.3752s3.9463 0.99643 9.5007 0.82615c5.5544-0.17028 13.366-2.5781 17.969-3.6144s12.438-1.6541 15.697-0.61962c3.253 1.0327 5.1945 4.4089 16.213 5.5249 11.019 1.116 36.853-0.64574 46.781 0.87779 9.9279 1.5235 11.463 2.9948 11.463 2.9948"/>
+                        <path id="frame3" d="m-210.96 133.26c5.0382 0.0929 33.077-10.753 74.44-23.16 41.272-12.379 98.021-19.252 126.41-22.258 47.101-4.9465 72.774-5.2615 74.776-3.9825 2.0012 1.279 1.1798 7.2048 1.1798 7.2048"/>
+                        <path id="frame4" d="m16.065 147.21c-11.545-64.261 79.663-89.302 107.49-88.795 27.826 0.50786 53.363 5.0183 61.019 42.653 3.0849 15.164-12.407 55.64-44.356 82.479-31.648 26.587-65.938 42.087-106.33 44.862-40.397 2.775-46.563-29.908-30.377-51.407 11.683-15.189 30.377-30.92 66.596-35.635 61.504-8.4703 138.78-2.3764 178.17-2.3367 39.392 0.0397 63.575-3.092 63.575-3.092"/>
+                        <path id="frame5" d="m199.93 113.58c-11.497 12.704 2.5023 14.333 9.5007 11.773 3.4992-1.2803 8.1348-4.4405 11.321-7.8433s4.9214-7.0483 5.5122-7.2339c1.1817-0.37125-2.1686 7.4353 1.549 10.017 13.18 3.9862 23.434-0.61122 35.834-1.9621s17.442-1.5609 6.1961 0.61961c-11.245 2.1806-19.229 4.0087-18.279 6.5059 0.95093 2.4972 8.2615 2.2719 13.941 1.4458 5.6798-0.82614 14.561-6.0928 21.686-6.4026 10.325-0.44892 21.91 3.4373 37.28 6.5059 15.37 3.0686 42.753 4.0275 42.753 4.0275"/>
+                    </g>
+                </svg>
+            </div>
+            <h2>
+                Second year Mechanical Engineering (B.S.) student and Chancellor's Scholar at the University of California, San Diego
+            </h2>
+        
+            <i class="fas fa-chevron-down chevron bounce" ></i>
+          
+        </section>
+    
+    
+        <section id="projects" class="projects dark-bg" style="margin-top: 100vh">
+            
+            <h1>PROJECTS</h1>
+            <h4>
+                <div><i class="fas fa-space-shuttle"></i>Rocketry / Aerospace</div>
+                <div><i class="fas fa-robot"></i><i class="fas fa-cogs"></i>Robotics / Mechanical</div>
+                <div><i class="fas fa-globe"></i> Other Projects</div>
+                <div><i class="fas fa-users"></i> Leadership </div>
+            </h4>
+            
+            <div class="grid" >
+                <div class="card" onclick="location.href='/rocketry.html#halya'" 
+                style="background-image: url('images/halya-spotlight.webp');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-space-shuttle"></i><a>Halya</a></h2>
+                        <p>SEDS UCSD's next-generation pressure-fed Methane-LOx sounding rocket.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/rocketry.html#vulcan2'" 
+                style="background-image: url('images/vulcan2-spotlight.webp');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-space-shuttle"></i><a>Vulcan-II</a></h2>
+                        <p>SEDS UCSD's pressure-fed Kersone-LOx sounding rocket powered by a 3D-printed engine.</p>
+                    </div>  
+                </div>
+
+                <div class="card" onclick="location.href='/robotics.html#sentry'" 
+                style="background-image: url('images/tr/22\ Sentry\ on\ rail.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-cogs"></i>Sentry</h2>
+                        <p>An autonomous turreted robot for Triton Robotics in the 2022 DJI RoboMaster competition.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/robotics.html#offseason'" 
+                style="background-image: url('images/gr9-spotlight.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-robot"></i><a>Sentinel</a></h2>
+                        <p>Improved design of Galileo Robotics' 2020 robot; intented for FRC's 2021 competition (Game Changers). </p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/robotics.html#frc2020'" 
+                style="background-image: url('images/gr8-spotlight.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-robot"></i><a>GR-8</a></h2>
+                        <p>Galileo Robotics' 2020 robot for FRC's 2020 competition (Infinite Recharge). </p>
+                    </div>  
+                </div>
+
+                <div class="card" onclick="location.href='/robotics.html#offseason'" 
+                style="background-image: url('images/revolution-spotlight.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-robot"></i>REVOLUTION</h2>
+                        <p>A concept robot for InspireNC's Summer 2020 CAD Challenge (Green Generation).</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/robotics.html#offseason'" 
+                style="background-image: url('images/ratio.webp');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-cogs"></i><a>Gearboxes</a></h2>
+                        <p>A collection of gearboxes I designed for use in the FIRST Robotics Competition.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/rocketry.html#galilei'" 
+                style="background-image: url('images/galilei-spotlight.webp');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-space-shuttle"></i><a>Galilei</a></h2>
+                        <p>Galileo Rocketry's 2020 rocket for the American Rocketry Challenge.</p>
+                    </div>  
+                </div>
+
+                <div class="card" onclick="location.href='/other.html#projects'" 
+                style="background-image: url('images/projects.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-globe"></i>Other Projects</h2>
+                        <p>Several other projects I have worked on.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/other.html#grobotics'" 
+                style="background-image: url('images/glogo.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-users"></i>Galileo Robotics</h2>
+                        <p>My involvement as Captain and Lead Designer of Galileo Robotics, a FIRST Robotics Competition team.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/other.html#grocketry'" 
+                style="background-image: url('images/grocketry.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-users"></i>Galileo Rocketry</h2>
+                        <p>My involvement as Founder and Captain of Galileo Rocketry, an American Rocketry Challenge team.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="location.href='/other.html#csg'" 
+                style="background-image: url('images/csg-square.png');">
+                    <div class="overlay">
+                        <h2><i class="fas fa-users"></i>Coalition of STEM Clubs @ Galileo</h2>
+                        <p>My involvement as Founder and Director of CSG, an alliance of high-school clubs working to promote STEM.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        
+        </section>
+
+
+        <section class="about dark-bg">
+
+            <a class="anchor" id="about"></a>
+            <h1>ABOUT</h1>
+            
+            <div class="desc ">
+                <p>
+                    <img src="images/portrait.png" alt="">
+                    Hello! I am Ethan Quan, a Mechanical Engineering (B.S.) student at the Jacobs School of 
+                    Engineering and Eleanor Roosevelt College (ERC) at the University of California, San Diego.
+                    <br><br>
+                    I am a STEM advocate and avid engineer, primarily in rocketry, robotics, and engineering design.
+                    My focus is in additive manufacturing and composite material design. 
+                    At UC San Diego, I'm currently on the SEDS @ UCSD's team developing their
+                    <a href="rocketry.html#halya" target="_blank">next-generation pressure-fed methane-liquid oxygen rocket, Halya</a>.
+                    I have worked for on Triton Robotics' Sentry Team developing their 
+                    <a href="robotics.html#sentry" target="_blank">Sentry Robot</a> 
+                    for the RoboMaster University League 2022 competition.
+                    <br><br>
+                    In the past at my high school, the Galileo Academy of Science and Technology, I was involved with  
+                    <a href="robotics.html#gr" target="_blank">Galileo Robotics</a>,  
+                    <a href="rocketry.html#grocketry" target="_blank">Galileo Rocketry</a>, and the
+                    <a href="other.html#csg" target="_blank">Coalition of STEM Clubs at Galileo (CSG)</a>. 
+                    I taught concepts in engineering—specifically mechanical design, computer-aided design, machining,
+                    and model rocketry—and helped to promote STEM activites
+                    throughout the student body with the cooperation of the administration and student government. 
+                    <br><br>
+                    In my free time, I enjoy casual photography, cooking, and spending time with friends.
+
+                </p>
+            </div>
+        </section>
+
+        <section class="dark-bg">
+            <div class="resume-cont" id="resume">
+                <div>
+                    <h1 style="width: 100%;">RESUME</h1>
+                    <button-black><a href="resume.pdf" target="_blank">Open In New Tab</a></button-black>
+                    
+                    <br><br><br>
+                    <div>
+                        <img src="resume.svg" alt="" width="100%" style="box-shadow: 3px 3px 20px rgb(5,5,5);">   
+                    </div>
+                </div>
+                <div>
+                    <h1 style="width: 100%;">SKILLS</h1>
+                    <div style="text-align: left; margin-left: 5em;">
+                        <h3>Computer-Aided Design (CAD)</h3>
+                        <h3>Computational Fluid Dyanmics (CFD)</h3>
+                        <h3>Manufacturing</h3>
+                    </div>
+                    <h1 style="width: 100%;">COURSEWORK</h1>
+                        <button-black><a href="transcript.pdf" target="_blank">Transcript</a></button-black>
+                        <br><br><br>
+                        <div style="text-align: left; margin-left: 5em;">
+                            <h3>Mechanical Engineering</h3>
+                            <ul>
+                                <li>Statics and Introduction to Dynamics*</li>
+                                <li>Introduction to Material Science*</li>
+                                <li>Introduction to Engineering Graphics and Design</li>
+                                <li>Introduction to Manual and CNC Machining*</li>
+                            </ul>
+                            <br>
+                            <h3>General Math/Science</h3>
+                            <ul>
+                                <li>Calculus: Integral, Differential, Vector*</li>
+                                <li>Linear Algebra</li>
+                                <li>Physics: Mechanics, Electricity/Magnetism, Heat/Waves/Optics</li>
+                                <li>Chemistry (General)</li>         
+                            </ul>
+                            <br>
+                            <h3>Non-Major Courses</h3>
+                            <ul>
+                                <li>World History I-V</li>
+                                <li>German (Linguistics and Conversation) I-IV</li>
+                                <li>European History: Life in Authoritarian Societies</li>
+                            </ul>
+                        </div>
+                    
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="about dark-bg" id="awards" style="min-height: 75em;">
+            <h1>AWARDS AND HONORS</h1>
+            <div class="award">
+                <h3>Chancellor's Scholarship</h3>
+                <img src="images/ucsd-logo-dark.png" alt="">    
+                <div class="award-desc"><p>A $20,000 scholarship awarded to first year UCSD students for outstanding academic achievement in addition to a mentorship program in which students develop effective leadership skills.</p></div>
+                <div class="award-desc award-date"><p><br>Jun 2021</p></div>
+            </div>
+            <div class="award">
+                <h3>Edward Waguih Ishak Scholarship </h3>
+                <img src="images/ucsd-logo-dark.png" alt=""> 
+                <div class="award-desc"><p>Awarded for excellence in the engineering curriculum and demonstrated achievement in engineering-related extracurriculars and interests.</p></div>
+                <div class="award-desc award-date"><p><br>June 2022</p></div>
+            </div>
+            <div class="award">
+                <h3>Eta Kappa Nu (IEEE-HKN)</h3>
+                <img src="images/hkn.png" alt=""> 
+                <div class="award-desc"><p>Engineering honor society of the Institute of Electrical and Electronics Engineers (IEEE); honored to the top 1/5 of the sophomore standing class majoring in engineering fields. </p></div>
+                <div class="award-desc award-date"><p><br>Jan 2022</p></div>
+            </div>
+            <div class="award">
+                <h3>Eleanor Roosevelt College Honors</h3>
+                <img src="images/erc.png" alt=""> 
+                <div class="award-desc"><p>Honored to high-achieving UCSD students at Roosevelt College. It includes an Honors Seminar (taught by the Provost) and enhances students' abilities to make arguments and understand the world at large.</p></div>
+                <div class="award-desc award-date"><p><br>Jul 2021</p></div>
+            </div>
+            <div class="award">
+                <h3>Provost Honors</h3>
+                <img src="images/erc.png" alt=""> 
+                <div class="award-desc"><p>Honored to those with a minimum term grade point average of 3.5 and the completion of at least twelve graded quarter units.</p></div>
+                <div class="award-desc award-date"><p><br>Dec 2021</p></div>
+            </div>
+            <div class="award">
+                <h3>AP Scholar with Distinction</h3>
+                <img src="images/collegeboard-logo.png" alt=""> 
+                <div class="award-desc"><p>Honored to students who receive an average score of at least 3.5 on all Advanced Placement (AP) Exams taken, and scores of 3 or higher on five or more of these exams.</p></div>
+                <div class="award-desc award-date"><p><br>May 2021</p></div>
+            </div>
+        
+        
+        </section>
+
+      
+        <footer >
+            &copy; Ethan Quan
+            <p>Designed by Ethan Quan. Hosted on GitHub Pages.</p>
+        </footer>
+        
+    </div>
+    
+
+</body>
+</html>

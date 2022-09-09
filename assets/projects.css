@@ -1,0 +1,147 @@
+:root {
+    --cardheight: 300px; 
+}
+
+.projects {
+    flex-direction: column;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.grid {
+    display: grid;
+    width: var(--bodywidth);
+
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    align-items: center;
+    grid-gap: 20px;
+
+}
+
+.dark-bg .card {
+    background-color: var(--bg2);
+    color: var(--text1);
+    box-shadow: 5px 5px 15px  #222222;
+}
+
+.card {
+    background-image: url("/images/gr9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center calc(var(--cardheight) * -.1);
+    height: var(--cardheight);
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px  #B2B2B2;
+    transition: .5s;
+    cursor:pointer;
+
+}
+
+.overlay {
+    display: block;
+    background-color:rgba(255, 255, 255, 0  );
+
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: var(--cardheight);    
+
+    overflow: hidden;
+    transform: translateY(78%);
+    transition: .5s;
+    
+    
+}
+
+.overlay > h2 {
+    font-size: 1.5em;
+    padding: .5em 0em .5em 0em;
+}
+
+.overlay > h2 > i {
+    margin-right: .25em;
+    vertical-align: middle;
+    
+}
+
+
+
+.overlay > p {
+    opacity: 0;
+    transition: .6s;
+    padding: 0em 1em 1em 1em;
+    font-size: 12pt;
+    
+}
+
+.overlay > .button-black {
+    opacity: 0;
+    transition: .6s;
+}
+
+.dark-bg .card:hover {
+    box-shadow: 5px 5px 8px  #000000;
+}
+.dark-bg .card:hover .overlay{
+    background-color: rgba(44,51,63, 0.75);
+}
+
+.card:hover {
+    transform: scale(105%);
+    box-shadow: 5px 5px 8px  #505050;
+}
+
+.card:hover .overlay {
+    transform: translateY(40%);
+    background-color:rgba(255, 255, 255, 0.9);
+}
+
+.card:hover .overlay > p, .card:hover .overlay > .button-black {
+    opacity: 1;
+}
+
+.fa-space-shuttle {
+    background: -webkit-linear-gradient(top, #753AFF, #C62BFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(270deg);
+    font-size: 100%;
+    margin-bottom: 1.5%;
+}
+
+.fa-cogs, .fa-robot {
+    background: -webkit-linear-gradient(left, #C62BFF, #FF005E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100%;
+    margin-bottom: 1.5%;
+}
+
+.fa-globe {
+    background: -webkit-linear-gradient(left,#FF005E, #FF8426, #FFBB00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100%;
+    margin-bottom: 1.5%;
+}
+
+.fa-users {
+    background: -webkit-linear-gradient(left,#FFBB00,  #94FF00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100%;
+    margin-bottom: 1.5%;
+}
+
+.fas > a {
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+

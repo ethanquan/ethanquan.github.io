@@ -1,0 +1,336 @@
+
+
+@media screen and (max-width: 1000px) {
+    .logo-cont > h1 {
+  
+        font-size: 6.5em;
+ 
+    }
+
+    .overlay > h2 {
+        font-size: 1.25em;
+        padding: .5em 0em .5em 0em;
+    }
+
+    :root {
+        --bodywidth: 75%; 
+        --awardwidth: 75%;
+        --award-desc-height: 5em;
+    }
+    
+    .grid {
+        width: 85%;
+    }    
+
+    .resume-cont {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-button {
+        margin-left: .5em;
+    }
+    .sidenav {
+        margin-left: .5em;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .nav-title {
+        margin: 0 2.5em 0 2.5em;
+    }
+
+    .nav {
+        height: 4em;
+    }
+    
+    .topbar {
+        padding-top: 1em;
+    }
+    
+
+    .projects > h4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        padding: 0 1em 1em 1em;     
+        font-size: 1em;
+    }
+
+    .projects > h4 > div {
+        margin-bottom: .5em;
+        text-align: center; 
+    }
+
+    .logo-cont > h1 {
+        font-size: 5.85em;
+    }
+
+    :root {
+        --bodywidth: 80%; 
+        --awardwidth: 80%;
+    }
+
+    .about > .desc > p > img {
+        max-width: 35%;
+    }
+
+    .about > .desc > p {
+        font-size: 1.35em;
+    }
+
+    .about {
+        padding-bottom: var(--award-desc-height);
+    }
+
+    
+    #sentry-main {
+        grid-template-columns: 1fr;
+    }
+    .tab-content .col-2 {
+        grid-template-columns: 1fr;
+    }
+    .intro .col-2 {
+        grid-template-columns: 1fr;
+    }
+    .intro .col-2.invert {
+        grid-template-columns: 1fr;
+        margin-top: 3em;
+    }
+
+} 
+
+@media screen and (max-width: 725px) {
+    .logo-cont > h1 {
+        font-size: 5.35em;
+
+    }
+
+    .landing > h2 {
+    
+        padding: 2.5em 15% 0 15%;
+    }
+
+    :root {
+        --award-desc-height: 7.5em;
+    }
+
+   
+    .sidenav:hover {
+        width: 9em;
+        margin-left: 1em;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .nav-title {
+        margin: 0 1.75em 0 1.75em;
+    }
+
+    .logo-cont > h1 {
+        font-size: 4.85em;
+
+    }
+
+    .landing > h2 {
+        padding: 3.5em 15% 0 15%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr ;
+        width: 90%;
+    }
+
+    :root {
+        --bodywidth: 90%; 
+        --awardwidth: 90%;
+        --award-desc-height: 8em;
+    }
+
+
+    .about > .desc {
+        flex-direction: column;
+        padding-bottom: 0em;
+    }
+    
+
+    .about > .desc > p {
+        padding: .5em 0em 0em 0em;
+        font-size: 1.25em;
+    }
+
+    .award > h3 {
+        font-size: 1.5em;
+    }
+
+    .award-desc {
+        font-size: 1em;
+    }
+    .award-date {
+        font-size: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .nav-button {
+        width: auto;
+        visibility: visible;
+        font-size: 1.5em;
+        height: 3em;
+        transform: translateY(-1em);
+    }
+    .topbar {
+        flex-direction: column;
+        height: 4em;
+        overflow: hidden;
+        justify-content: start;
+        transition: .75s ease;
+  
+    }
+    
+    .alt {
+        transform: translateY(0);
+    }
+    
+    .topbar-landing .nav-title {
+        border-bottom-color: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    }
+
+    .topbar-landing:hover {
+        margin-bottom: 2em;
+    }
+
+    .nav:hover .topbar {
+        padding-bottom: 0em;
+    }
+
+    
+    .topbar:hover {
+        height: 100vh;
+    }
+    
+    .nav {
+        transition: .5s;
+    }
+
+    .nav:hover {
+        height:10em;
+    }
+
+    .nav-home:hover {
+        height: 4em;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    :root {
+        --award-desc-height: 8.5em;
+    }
+
+    .about > .desc > p {
+        padding: .5em 0em 0em 0em;
+        font-size: 1.25em;
+    }
+
+    .award > h3 {
+        font-size: 1.25em;
+    }
+
+    .award-desc {
+        font-size: .9em;
+    }
+    .award-date {
+        font-size: .8em;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    :root {
+        --award-desc-height: 9.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        --award-desc-height: 8.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .landing > h2 {
+        font-size: 1.25em;
+    }
+    .logo-cont {
+        padding-top: 0;
+        padding-bottom: 2em;
+    }
+
+    .grid {
+        grid-template-columns: 1fr ;
+        
+    }
+
+    .projects > h4 {    
+        font-size: .85em;
+    }
+
+
+
+    .about > .desc > p > img {
+        max-width: 35%;
+    }
+
+    .about > .desc > p {
+        padding: .5em 0em 0em 0em;
+        font-size: 1em;
+    }
+    
+    .award {
+        width: var(--awardwidth);
+        padding: .75em .5em .75em .5em;
+        grid-template-columns: 85% 15%;
+    }
+
+    .award > h3 {
+        font-size: 1.15em;
+        grid-column: 1 / 2;
+    }
+
+    .award-desc {
+        padding-top: 0.5em;
+        font-size: .85em;
+    }
+
+        
+
+    .award > img {
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    .award-desc {
+        grid-column: 1 / 2;
+        grid-row: 3;
+        
+    }   
+
+    .award-date {
+        grid-column: 2;
+        grid-row: 3;
+        font-size: 0.75em;
+    }
+
+
+}

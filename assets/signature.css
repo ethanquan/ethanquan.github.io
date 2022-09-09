@@ -1,0 +1,62 @@
+
+.signature-cont, .signature-cont-vert {
+
+  animation: fadeOut .5s linear forwards;
+  animation-delay: 5s;
+}
+
+
+#frame1 {
+  stroke-dasharray: 447.77447509765625;
+  stroke-dashoffset: 447.77447509765625;
+  animation: LineAnimation 0.3s ease-in forwards;
+  animation-delay: 0.5s;
+}
+
+#frame2 {
+  stroke-dasharray: 400.75946044921875;
+  stroke-dashoffset: 400.75946044921875;
+  animation: LineAnimation 0.65s linear forwards;
+  animation-delay: .95s;
+}
+
+#frame3 {
+  stroke-dasharray: 289.11834716796875;
+  stroke-dashoffset: 289.11834716796875;
+  animation: LineAnimation 0.1s linear forwards;
+  animation-delay: 1.7s;
+}
+
+#frame4 {
+  stroke-dasharray: 853.0635375976562;
+  stroke-dashoffset: 853.0635375976562;
+  animation: LineAnimation 0.4s linear forwards;
+  animation-delay: 2.2s;
+}
+
+#frame5 {
+  stroke-dasharray: 447.77447509765625px;
+  stroke-dashoffset: 447.77447509765625px;
+  animation: LineAnimation 2s ease-out forwards;
+  animation-delay: 2.75s;
+}
+
+
+@keyframes LineAnimation {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
