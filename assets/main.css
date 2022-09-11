@@ -46,12 +46,12 @@ html, body {
     --text3: #7F7F7F;
 }
 
-p > a:link, p > a:visited {
+p > a:link, p > a:visited, .cta > a:link, .cta > a:visited {
     color: var(--cta);
     transition: .25s;
     text-decoration: underline;
 }
-p > a:link:hover, p > a:visited:hover {
+p > a:link:hover, p > a:visited:hover, .cta > a:link:hover, .cta > a:visited:hover  {
     color: gold;
 } 
 
@@ -326,7 +326,7 @@ footer > p{
 }
 
 .about > .desc > p {
-    padding: 0em 0em 0em 2em;
+
     font-size: 1.35em;
     text-align: left;
 }
